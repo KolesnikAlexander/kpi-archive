@@ -1,0 +1,876 @@
+Producer1 changes cr2
+Producer5 pushes an element
++++ ind: 0 => 1
++++ cr1[1] = 1
+
+CommonResource 2: 
+   intValue = 62
+   byteValue = 36
+   floatValue = 0.16326517
+   longValue = -2182437966028824408
+   boolValue = false
+   charValue = b
+
+Producer1 pushes an element
+Producer2 changes cr2
++++ ind: 1 => 2
++++ cr1[2] = 2
+
+CommonResource 2: 
+   intValue = 73
+   byteValue = 36
+   floatValue = 0.16326517
+   longValue = 8409307355699118143
+   boolValue = true
+   charValue = b
+
+Producer2 pushes an element
+Producer3 changes cr2
++++ ind: 2 => 3
++++ cr1[3] = 3
+
+CommonResource 2: 
+   intValue = 11
+   byteValue = -4
+   floatValue = 0.16326517
+   longValue = -7581869012644819541
+   boolValue = true
+   charValue = b
+
+Producer3 pushes an element
++++ ind: 3 => 4
++++ cr1[4] = 4
+
+Consumer4 takes an element
+--- cr1[4] = 4
+--- ind: 4 => 3
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 20
+   byteValue = -4
+   floatValue = 0.78875893
+   longValue = -7890669161944991689
+   boolValue = false
+   charValue = b
+
+Producer2 pushes an element
++++ ind: 3 => 4
++++ cr1[4] = 4
+
+Producer5 pushes an element
++++ ind: 4 => 5
++++ cr1[5] = 5
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 20
+   byteValue = -22
+   floatValue = 0.05676031
+   longValue = -7890669161944991689
+   boolValue = false
+   charValue = b
+
+Producer3 pushes an element
+Producer1 changes cr2
++++ ind: 5 => 6
++++ cr1[6] = 6
+
+CommonResource 2: 
+   intValue = 86
+   byteValue = -22
+   floatValue = 0.09717381
+   longValue = -4381064023666168948
+   boolValue = false
+   charValue = b
+
+Producer1 pushes an element
++++ ind: 6 => 7
++++ cr1[7] = 7
+
+Consumer4 takes an element
+--- cr1[7] = 7
+--- ind: 7 => 6
+
+Producer1 changes cr2
+Producer5 pushes an element
++++ ind: 6 => 7
++++ cr1[7] = 7
+
+CommonResource 2: 
+   intValue = 11
+   byteValue = -63
+   floatValue = 0.65853065
+   longValue = -8847367576071664374
+   boolValue = false
+   charValue = i
+
+Producer1 pushes an element
+Producer2 changes cr2
++++ ind: 7 => 8
++++ cr1[8] = 8
+
+CommonResource 2: 
+   intValue = 91
+   byteValue = 53
+   floatValue = 0.65853065
+   longValue = 6353628901482286712
+   boolValue = false
+   charValue = i
+
+Producer2 pushes an element
++++ ind: 8 => 9
++++ cr1[9] = 9
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 91
+   byteValue = -11
+   floatValue = 0.57914984
+   longValue = 5497692506768706638
+   boolValue = false
+   charValue = h
+
+Producer3 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+Producer2 changes cr2
+Consumer4 takes an element
+--- cr1[10] = 10
+CommonResource 2: 
+   intValue = 19
+   byteValue = -11
+   floatValue = 0.57914984
+   longValue = -1879128099592098571
+   boolValue = false
+   charValue = e
+
+--- ind: 10 => 9
+
+Producer3 changes cr2
+Producer2 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 15
+   byteValue = -11
+   floatValue = 0.02744317
+   longValue = 163849345158273134
+   boolValue = true
+   charValue = m
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 64
+   byteValue = -11
+   floatValue = 0.5460701
+   longValue = 5685386801611527987
+   boolValue = true
+   charValue = m
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 20
+   byteValue = -11
+   floatValue = 0.9086338
+   longValue = 8790102483226950711
+   boolValue = true
+   charValue = m
+
+Producer1 pushes an element
++++ ind: 9 => 10
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 20
+   byteValue = -66
+   floatValue = 0.57069165
+   longValue = 8790102483226950711
+   boolValue = true
+   charValue = a
+
++++ cr1[10] = 10
+Producer3 changes cr2
+
+CommonResource 2: 
+   intValue = 20
+   byteValue = -66
+   floatValue = 0.5218273
+   longValue = 2822790535934694593
+   boolValue = false
+   charValue = a
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer5 pushes an element
+Producer2 changes cr2
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 76
+   byteValue = 11
+   floatValue = 0.14662671
+   longValue = 2822790535934694593
+   boolValue = false
+   charValue = a
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 50
+   byteValue = 110
+   floatValue = 0.47834915
+   longValue = 2822790535934694593
+   boolValue = true
+   charValue = a
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 72
+   byteValue = -40
+   floatValue = 0.6268629
+   longValue = 2822790535934694593
+   boolValue = true
+   charValue = n
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 68
+   byteValue = -40
+   floatValue = 0.6268629
+   longValue = -7565705465918337091
+   boolValue = false
+   charValue = q
+
+Producer3 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 89
+   byteValue = -40
+   floatValue = 0.607233
+   longValue = -100735685501001668
+   boolValue = false
+   charValue = q
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 94
+   byteValue = -48
+   floatValue = 0.607233
+   longValue = -100735685501001668
+   boolValue = true
+   charValue = b
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 62
+   byteValue = -4
+   floatValue = 0.38347667
+   longValue = -100735685501001668
+   boolValue = true
+   charValue = b
+
+Producer1 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 93
+   byteValue = 92
+   floatValue = 0.76117325
+   longValue = 7116893014908307958
+   boolValue = true
+   charValue = b
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 16
+   byteValue = -88
+   floatValue = 0.57476926
+   longValue = 4607693919842333451
+   boolValue = true
+   charValue = r
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer3 changes cr2
+Producer5 pushes an element
+CommonResource 2: 
+   intValue = 79
+   byteValue = -88
+   floatValue = 0.57476926
+   longValue = 4607693919842333451
+   boolValue = false
+   charValue = a
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 79
+   byteValue = 68
+   floatValue = 0.57476926
+   longValue = 4607693919842333451
+   boolValue = false
+   charValue = h
+
++++ ind: 9 => 10
+Producer1 changes cr2
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 66
+   byteValue = 68
+   floatValue = 0.7238169
+   longValue = 7327740288795240685
+   boolValue = false
+   charValue = i
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+Producer5 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 66
+   byteValue = 68
+   floatValue = 0.32134235
+   longValue = 6553782353139381340
+   boolValue = true
+   charValue = r
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 66
+   byteValue = 10
+   floatValue = 0.5666288
+   longValue = -7149357247240929467
+   boolValue = true
+   charValue = h
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 66
+   byteValue = 114
+   floatValue = 0.5666288
+   longValue = 4015012282552215098
+   boolValue = false
+   charValue = h
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer3 changes cr2
+Producer5 pushes an element
++++ ind: 9 => 10
+CommonResource 2: 
+   intValue = 66
+   byteValue = -91
+   floatValue = 0.039958596
+   longValue = 4015012282552215098
+   boolValue = true
+   charValue = n
+
++++ cr1[10] = 10
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 35
+   byteValue = 101
+   floatValue = 0.039958596
+   longValue = -705373020612364668
+   boolValue = false
+   charValue = n
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 35
+   byteValue = -110
+   floatValue = 0.20235646
+   longValue = 3304053862780381125
+   boolValue = false
+   charValue = c
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer2 changes cr2
+Producer5 pushes an element
+CommonResource 2: 
+   intValue = 4
+   byteValue = 83
+   floatValue = 0.20235646
+   longValue = 3304053862780381125
+   boolValue = false
+   charValue = e
+
++++ ind: 9 => 10
+Producer3 changes cr2
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 8
+   byteValue = -83
+   floatValue = 0.20235646
+   longValue = 3304053862780381125
+   boolValue = false
+   charValue = e
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 8
+   byteValue = 5
+   floatValue = 0.20235646
+   longValue = -2472137962969459573
+   boolValue = false
+   charValue = d
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer2 changes cr2
+Producer5 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 19
+   byteValue = -5
+   floatValue = 0.52400273
+   longValue = -2472137962969459573
+   boolValue = true
+   charValue = d
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 19
+   byteValue = 90
+   floatValue = 0.52400273
+   longValue = 7248095660244783038
+   boolValue = true
+   charValue = h
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 77
+   byteValue = 83
+   floatValue = 0.52400273
+   longValue = 7248095660244783038
+   boolValue = true
+   charValue = m
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+Producer5 pushes an element
+CommonResource 2: 
+   intValue = 3
+   byteValue = 35
+   floatValue = 0.4072286
+   longValue = 7248095660244783038
+   boolValue = true
+   charValue = m
+
++++ ind: 9 => 10
+Producer3 changes cr2
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 3
+   byteValue = 50
+   floatValue = 0.6105639
+   longValue = -6490973085295579280
+   boolValue = false
+   charValue = m
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 57
+   byteValue = 50
+   floatValue = 0.6105639
+   longValue = -6490973085295579280
+   boolValue = true
+   charValue = a
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 87
+   byteValue = 50
+   floatValue = 0.6105639
+   longValue = 6918812262984146294
+   boolValue = true
+   charValue = o
+
+Producer1 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 81
+   byteValue = 50
+   floatValue = 0.7342641
+   longValue = 7226643417717035075
+   boolValue = true
+   charValue = l
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 81
+   byteValue = -117
+   floatValue = 0.7342641
+   longValue = -667172828500192249
+   boolValue = false
+   charValue = l
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 46
+   byteValue = 69
+   floatValue = 0.7342641
+   longValue = 7198092558688813061
+   boolValue = false
+   charValue = a
+
+Producer3 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 46
+   byteValue = 85
+   floatValue = 0.7342641
+   longValue = -2822557973749761381
+   boolValue = false
+   charValue = a
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 84
+   byteValue = 29
+   floatValue = 0.7342641
+   longValue = -2822557973749761381
+   boolValue = false
+   charValue = c
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 77
+   byteValue = 93
+   floatValue = 0.7342641
+   longValue = 7496905263293781950
+   boolValue = false
+   charValue = c
+
+Producer1 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 77
+   byteValue = 3
+   floatValue = 0.7342641
+   longValue = 7286236554062897575
+   boolValue = true
+   charValue = f
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 88
+   byteValue = -7
+   floatValue = 0.4951794
+   longValue = 5447200792359088631
+   boolValue = true
+   charValue = r
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+Producer5 pushes an element
++++ ind: 9 => 10
+CommonResource 2: 
+   intValue = 31
+   byteValue = 49
+   floatValue = 0.4951794
+   longValue = -6630023073609474382
+   boolValue = true
+   charValue = k
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 31
+   byteValue = 49
+   floatValue = 0.6562865
+   longValue = 2712592440769978993
+   boolValue = false
+   charValue = g
+
++++ cr1[10] = 10
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 31
+   byteValue = 49
+   floatValue = 0.124931395
+   longValue = 2387022475433074682
+   boolValue = false
+   charValue = b
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+Producer5 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 31
+   byteValue = 119
+   floatValue = 0.38310492
+   longValue = 2387022475433074682
+   boolValue = true
+   charValue = b
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 8
+   byteValue = 119
+   floatValue = 0.6743562
+   longValue = -8706356644047507610
+   boolValue = false
+   charValue = b
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 6
+   byteValue = 36
+   floatValue = 0.6743562
+   longValue = -6854967277853319643
+   boolValue = false
+   charValue = b
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer5 pushes an element
+Producer2 changes cr2
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 6
+   byteValue = 105
+   floatValue = 0.75949776
+   longValue = -346443084577772299
+   boolValue = true
+   charValue = b
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 3
+   byteValue = 105
+   floatValue = 0.6842945
+   longValue = 4308870265118577920
+   boolValue = true
+   charValue = b
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 0
+   byteValue = 105
+   floatValue = 0.26880562
+   longValue = 4308870265118577920
+   boolValue = true
+   charValue = b
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+Producer5 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 44
+   byteValue = 68
+   floatValue = 0.26880562
+   longValue = -7289862679978744672
+   boolValue = false
+   charValue = b
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 30
+   byteValue = 68
+   floatValue = 0.20238525
+   longValue = 6968192667627153913
+   boolValue = false
+   charValue = r
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 56
+   byteValue = 68
+   floatValue = 0.22312963
+   longValue = 6968192667627153913
+   boolValue = false
+   charValue = t
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+Producer5 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+CommonResource 2: 
+   intValue = 56
+   byteValue = 7
+   floatValue = 0.22312963
+   longValue = 6898974106023828571
+   boolValue = false
+   charValue = i
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 56
+   byteValue = 14
+   floatValue = 0.22312963
+   longValue = 6719830900629142551
+   boolValue = false
+   charValue = p
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 95
+   byteValue = 14
+   floatValue = 0.3608153
+   longValue = -729755069296552411
+   boolValue = false
+   charValue = p
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 84
+   byteValue = -87
+   floatValue = 0.3608153
+   longValue = -729755069296552411
+   boolValue = false
+   charValue = f
+
+Producer3 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 71
+   byteValue = -106
+   floatValue = 0.69023585
+   longValue = 3634806485245754273
+   boolValue = false
+   charValue = s
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 34
+   byteValue = -106
+   floatValue = 0.69023585
+   longValue = -6731034331431631683
+   boolValue = false
+   charValue = s
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+
+Producer1 changes cr2
+CommonResource 2: 
+   intValue = 24
+   byteValue = 50
+   floatValue = 0.27325022
+   longValue = -6731034331431631683
+   boolValue = false
+   charValue = g
+
+Producer1 pushes an element
++++ ind: 9 => 10
++++ cr1[10] = 10
+
+Producer2 changes cr2
+CommonResource 2: 
+   intValue = 24
+   byteValue = 80
+   floatValue = 0.27325022
+   longValue = 3035284678098105117
+   boolValue = false
+   charValue = g
+
+Producer3 changes cr2
+CommonResource 2: 
+   intValue = 20
+   byteValue = 80
+   floatValue = 0.7982119
+   longValue = -4902816954591479842
+   boolValue = true
+   charValue = j
+
+Consumer4 takes an element
+--- cr1[10] = 10
+--- ind: 10 => 9
+

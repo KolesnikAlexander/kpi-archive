@@ -1,0 +1,28 @@
+Global is initialized
+Err is initialized
+M4 is initialized
+M2 is initialized
+M3 is initialized
+M1 is initialized
+Main started. Invokes:
+       Procedure S4 started.
+       S4 ends.
+       Procedure S5 started.
+       S5 ends.
+   Procedure S2 started. Invokes:
+       Procedure S6 started
+       S6 ends.
+   S2 ends.
+   Procedure S3 started. Invokes:
+       Procedure S6 started
+       S6 ends.
+       Procedure S7 started. Invokes:
+   Procedure S2 started. Invokes:
+       Procedure S6 started
+       S6 ends.
+   S2 ends.
+       S7 ends.
+       Procedure S8 started
+       S8 ends.
+   S3 ends.
+Main ends.
