@@ -10,15 +10,15 @@
 Повнотекстовий пошук (Boolean mode): обов’язкове входження слова, ціла фраза.  
 
 #### ER діаграма
-![alt source](/attachedGitHub/er.png)  
+![alt source](/databases/lab2/attachedGitHub/er.png)  
 #### Робота програми:
-![alt result](/attachedGitHub/screen0.jpg)  
+![alt result](/databases/lab2/attachedGitHub/screen0.jpg)  
 
 
-![alt result](/attachedGitHub/screen1.jpg)  
+![alt result](/databases/lab2/attachedGitHub/screen1.jpg)  
 
 
-![alt result](/attachedGitHub/screen2.jpg)  
+![alt result](/databases/lab2/attachedGitHub/screen2.jpg)  
 
 
-![alt result](/attachedGitHub/screen3.jpg)  
+![alt result](/databases/lab2/attachedGitHub/screen3.jpg)  
