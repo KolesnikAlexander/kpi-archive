@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<row>
+<field name="name">Lol</field>
+<field name="country">Lol country</field>
+<field name="city">London</field>
+<field name="capacity" >300</field >
+<field name="top_rated">0</field>
+<field name="estab_date">2010-01-05</field>
+</row>

@@ -1,0 +1,42 @@
+<?xml version="1.0"?>
+
+<resultset>
+    <row>
+        <field name="name">Bundes League</field>
+        <field name="season">2014/2015</field>
+        <field name="federation">German football federation</field>
+        <field name="top_rated">0</field>
+        <field name="estab_date">2005-01-05</field>
+    </row>
+
+    <row>
+        <field name="name">UA Premier League</field>
+        <field name="season">2017/2018</field>
+        <field name="federation">Ukraine football federation</field>
+        <field name="top_rated">0</field>
+        <field name="estab_date">1992-01-05</field>
+    </row>
+
+    <row>
+        <field name="name">ENG Premier League</field>
+        <field name="season">2017/2018</field>
+        <field name="federation">EFL</field>
+        <field name="top_rated">0</field>
+        <field name="estab_date">1980-01-05</field>
+    </row>
+
+    <row>
+        <field name="name">UEFA Europe League</field>
+        <field name="season">2010/2011</field>
+        <field name="federation">UEFA</field>
+        <field name="top_rated">1</field>
+        <field name="estab_date">1950-01-05</field>
+    </row>
+    <row>
+        <field name="name">UEFA Champions League</field>
+        <field name="season">2013/2013</field>
+        <field name="federation">UEFA</field>
+        <field name="top_rated">1</field>
+        <field name="estab_date">1920-01-05</field>
+    </row>
+</resultset>

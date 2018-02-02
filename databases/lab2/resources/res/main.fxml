@@ -1,0 +1,204 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="750.0" prefWidth="1000.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.Controller">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <center>
+      <VBox BorderPane.alignment="CENTER">
+         <children>
+            <HBox maxWidth="1.7976931348623157E308" prefHeight="50.0">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </HBox>
+            <HBox prefHeight="35.0">
+               <children>
+                  <Button fx:id="editButton" mnemonicParsing="false" onMouseClicked="#editButtonClicked" text="Edit">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="deleteButton" mnemonicParsing="false" onMouseClicked="#delButtonClicked" text="Delete">
+                     <HBox.margin>
+                        <Insets right="7.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button fx:id="addButton" mnemonicParsing="false" onMouseClicked="#addButtonClicked" text="Add" />
+                  <HBox HBox.hgrow="ALWAYS" />
+                  <Button mnemonicParsing="false" text="Championsips" textFill="#216820">
+                     <HBox.margin>
+                        <Insets right="8.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Clubs" textFill="#216820">
+                     <HBox.margin>
+                        <Insets right="8.0" />
+                     </HBox.margin>
+                  </Button>
+                  <Button mnemonicParsing="false" text="Stadiums" textFill="#216820" />
+               </children>
+            </HBox>
+            <TableView fx:id="gamesTable" prefHeight="200.0" prefWidth="588.0">
+              <columns>
+                <TableColumn fx:id="hostColumn" prefWidth="121.0" text="Host" />
+                <TableColumn fx:id="guestColumn" prefWidth="144.0" text="Guest" />
+                  <TableColumn fx:id="stadiumColumn" minWidth="0.0" prefWidth="150.0" text="Stadium" />
+                  <TableColumn fx:id="championshipColumn" prefWidth="143.0" text="Championship" />
+                  <TableColumn fx:id="scoreColumn" minWidth="0.0" prefWidth="63.0" text="Score" />
+                  <TableColumn fx:id="dateColumn" prefWidth="98.0" text="Date" />
+              </columns>
+            </TableView>
+         </children>
+      </VBox>
+   </center>
+   <top>
+      <Label text="Matches database" textFill="#248d2d" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="39.0" />
+         </font>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <left>
+      <VBox prefHeight="345.0" prefWidth="185.0" BorderPane.alignment="CENTER">
+         <children>
+            <Button mnemonicParsing="false" text="Upload dimentions">
+               <VBox.margin>
+                  <Insets />
+               </VBox.margin>
+            </Button>
+            <Label prefHeight="24.0" prefWidth="83.0" text="FILTERS" textFill="#248d2d" underline="true">
+               <font>
+                  <Font size="20.0" />
+               </font>
+               <VBox.margin>
+                  <Insets left="50.0" top="10.0" />
+               </VBox.margin>
+            </Label>
+            <RadioButton fx:id="noFilter" mnemonicParsing="false" selected="true" text="no filter">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <Label text="CHAMPIONSHIP">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="champTopRated" mnemonicParsing="false" text="top rated">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="champEstabDate" mnemonicParsing="false" text="estab.date">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <Slider fx:id="champEstabDateSlider" max="2100.0" min="1900.0" showTickLabels="true" showTickMarks="true">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Slider>
+            <Label text="CLUB">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="clubTopRated" mnemonicParsing="false" text="top rated">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="clubEstabDate" mnemonicParsing="false" text="estab.date">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <Slider fx:id="clubEstabDateSlider" max="2100.0" min="1900.0" showTickLabels="true" showTickMarks="true">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Slider>
+            <RadioButton fx:id="wordsPresent" mnemonicParsing="false" text="words are present">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <TextField fx:id="wordsPresentTextField">
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+            </TextField>
+            <RadioButton fx:id="wholePhrase" mnemonicParsing="false" text="whole phrase">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <TextField fx:id="wholePhraseTextField">
+               <VBox.margin>
+                  <Insets top="3.0" />
+               </VBox.margin>
+            </TextField>
+            <Label text="STADIUM">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+               <font>
+                  <Font name="System Bold" size="13.0" />
+               </font>
+            </Label>
+            <RadioButton fx:id="stadiumTopRated" mnemonicParsing="false" text="top rated">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <RadioButton fx:id="stadiumEstabDate" mnemonicParsing="false" text="estab.date">
+               <VBox.margin>
+                  <Insets top="10.0" />
+               </VBox.margin>
+            </RadioButton>
+            <Slider fx:id="stadiumEstabDateSlider" max="2100.0" min="1900.0" showTickLabels="true" showTickMarks="true">
+               <VBox.margin>
+                  <Insets top="5.0" />
+               </VBox.margin>
+            </Slider>
+            <Button fx:id="applyButton" mnemonicParsing="false" onMouseClicked="#onApplyButtonClicked" prefHeight="25.0" prefWidth="178.0" text="APPLY" textFill="#328345">
+               <VBox.margin>
+                  <Insets top="15.0" />
+               </VBox.margin>
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+         <padding>
+            <Insets bottom="5.0" left="5.0" right="5.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets right="20.0" />
+         </BorderPane.margin>
+      </VBox>
+   </left>
+   <right>
+      <Pane prefWidth="30.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>

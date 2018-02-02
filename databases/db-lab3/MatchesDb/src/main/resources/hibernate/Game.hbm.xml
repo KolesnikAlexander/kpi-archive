@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<!DOCTYPE hibernate-mapping PUBLIC "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+        "http://hibernate.sourceforge.net/hibernate-mapping-3.0.dtd">
+
+<hibernate-mapping>
+    <class name="program.orm.Game" table="game">
+        <id name="gameId" type="java.lang.Integer">
+            <column name="game_id" />
+            <generator class="identity" />
+        </id>
+        <property name="championshipId" type="java.lang.Integer">
+            <column name="championship_id" length="45" not-null="false"/>
+        </property>
+        <property name="stadiumId" type="java.lang.Integer">
+            <column name="stadium_id" length="45" not-null="false"/>
+        </property>
+        <property name="hostClubId" type="java.lang.Integer">
+            <column name="host_club_id" length="45" not-null="true"/>
+        </property>
+        <property name="guestClubId" type="java.lang.Integer">
+            <column name="guest_club_id" length="45" not-null="true"/>
+        </property>
+        <property name="date" type="java.sql.Date">
+            <column name="date" length="45" not-null="true"/>
+        </property>
+        <property name="score" type="java.lang.String">
+            <column name="score" length="45" not-null="false"/>
+        </property>
+    </class>
+</hibernate-mapping>

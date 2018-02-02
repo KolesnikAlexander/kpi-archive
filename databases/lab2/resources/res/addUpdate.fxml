@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.*?>
+<?import javafx.scene.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.geometry.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="350.0" prefWidth="252.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="program.AddUpdateController">
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+   <top>
+      <Label text="Item" textFill="#248d2d" BorderPane.alignment="CENTER">
+         <font>
+            <Font size="21.0" />
+         </font>
+         <padding>
+            <Insets bottom="20.0" />
+         </padding>
+         <BorderPane.margin>
+            <Insets />
+         </BorderPane.margin>
+      </Label>
+   </top>
+   <center>
+      <VBox prefHeight="200.0" prefWidth="100.0" BorderPane.alignment="CENTER">
+         <children>
+            <FlowPane prefHeight="35.0">
+               <children>
+                  <ComboBox fx:id="champComboBox" prefHeight="25.0" prefWidth="196.0" promptText="championship" />
+               </children>
+            </FlowPane>
+            <FlowPane prefHeight="35.0">
+               <children>
+                  <ComboBox fx:id="stadiumComboBox" prefHeight="25.0" prefWidth="196.0" promptText="stadium" />
+               </children>
+            </FlowPane>
+            <FlowPane prefHeight="35.0">
+               <children>
+                  <ComboBox fx:id="hostComboBox" prefHeight="25.0" prefWidth="198.0" promptText="host" />
+               </children>
+            </FlowPane>
+            <FlowPane prefHeight="35.0">
+               <children>
+                  <ComboBox fx:id="guestComboBox" prefHeight="25.0" prefWidth="198.0" promptText="guest" />
+               </children>
+            </FlowPane>
+            <FlowPane />
+            <FlowPane prefHeight="35.0">
+               <children>
+                  <Label text="Date:">
+                     <FlowPane.margin>
+                        <Insets right="5.0" />
+                     </FlowPane.margin>
+                  </Label>
+                  <DatePicker fx:id="datePicker" prefHeight="25.0" prefWidth="160.0" />
+               </children>
+            </FlowPane>
+            <FlowPane>
+               <children>
+                  <Label text="Score:">
+                     <FlowPane.margin>
+                        <Insets right="5.0" />
+                     </FlowPane.margin>
+                  </Label>
+                  <TextField fx:id="scoreLeft" prefHeight="25.0" prefWidth="45.0" />
+                  <Label text="-" />
+                  <TextField fx:id="scoreRight" prefHeight="25.0" prefWidth="48.0" />
+               </children>
+               <VBox.margin>
+                  <Insets bottom="20.0" />
+               </VBox.margin>
+            </FlowPane>
+            <Button fx:id="okButton" mnemonicParsing="false" onMouseClicked="#okButtonClicked" prefHeight="25.0" prefWidth="203.0" text="ОК" />
+         </children>
+      </VBox>
+   </center>
+</BorderPane>

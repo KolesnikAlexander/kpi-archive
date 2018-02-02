@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<resultset>
+    <row>
+        <field name="name">Chelsea</field>
+        <field name="country">England</field>
+        <field name="city">London</field>
+        <field name="coach" >Antonio Conte</field >
+        <field name="top_rated">1</field>
+        <field name="estab_date">2010-01-05</field>
+        <field name="description">One more super puper club</field>
+    </row>
+    <row>
+        <field name="name">Liverpool</field>
+        <field name="country">England</field>
+        <field name="city">Liverpool</field>
+        <field name="coach" >Liverpool Coach</field >
+        <field name="top_rated">1</field>
+        <field name="estab_date">1995-01-05</field>
+        <field name="description">Beatles forever</field>
+    </row>
+    <row>
+        <field name="name">Manchester United</field>
+        <field name="country">England</field>
+        <field name="city">Manchester</field>
+        <field name="coach" >Manchester Coach</field >
+        <field name="top_rated">1</field>
+        <field name="estab_date">1950-01-05</field>
+        <field name="description">Super club</field>
+    </row>
+    <row>
+        <field name="name">Shakhtar</field>
+        <field name="country">Ukraine</field>
+        <field name="city">Donetsk</field>
+        <field name="coach" >Paulo Fonseca</field >
+        <field name="top_rated">0</field>
+        <field name="estab_date">1936-01-01</field>
+        <field name="description">Super puper club</field>
+    </row>
+    <row>
+        <field name="name">Dynamo</field>
+        <field name="country">Ukraine</field>
+        <field name="city">Kyiv</field>
+        <field name="coach" >Alyaksandr Khatskevich</field >
+        <field name="top_rated">0</field>
+        <field name="estab_date">1960-01-01</field>
+        <field name="description">Super puper club</field>
+    </row>
+    <row>
+        <field name="name">Bayern</field>
+        <field name="country">Germany</field>
+        <field name="city">Munich</field>
+        <field name="coach" >Coach of Bayern</field >
+        <field name="top_rated">1</field>
+        <field name="estab_date">1905-01-01</field>
+        <field name="description">Super puper club</field>
+    </row>
+</resultset>
